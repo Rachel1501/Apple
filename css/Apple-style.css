@@ -375,9 +375,7 @@ h3{
     .two-squares .square-right{
         margin-top: 12px;
     }
-    footer{
-        display:none;
-    }
+
     .mobile-footer{
         display:block;
     }
@@ -397,7 +395,7 @@ h3{
         padding-top: 12px;
         margin-top: 0px;
     }
-}
+} /* footer */
 .footer{
     display: block;
     width: 90%;
