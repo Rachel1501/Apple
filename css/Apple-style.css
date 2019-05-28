@@ -123,6 +123,136 @@ h3{
     text-align: center;
 }
 
+.stripe.two-squares .cta{
+    font-size: 17px;
+}
+
+.cta a:hover,.cta:hover{
+    text-decoration: underline;
+    color:#0070c9;
+}
+
+.cta.right{
+    padding-left: 26px;
+}
+
+.material-icons{
+    color:#0070c9;
+    position: relative;
+    bottom: -5px;
+    right: 6px;
+}
+
+.cta-container{
+    display:absolute;
+}
+
+.apple-card{
+    background-image:url('.././img/cards.jpg');
+    background-position: 50%;
+    background-size:cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.first-row.square-left{
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    background-position: 50% 0%;
+    background-image:url('.././img/apple-news.jpg');
+}
+
+.first-row.square-right{
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: 50% 0%;
+    background-image:url('.././img/apple-tv.jpg');
+}
+
+.second-row.square-left{
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: 50% 0%;
+    background-image:url('.././img/arcade.jpg');
+}
+
+.second-row.square-right{
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: 50% 0%;
+    background-image:url('.././img/apple-music.jpg');
+    height: 580px;
+}
+
+.third-row.square-left{
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: 50% 0%;
+    background-image:url('.././img/iwatch.jpg');
+}
+
+.third-row.square-right{
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: 50% 0%;
+    background-image:url('.././img/airpods.jpg');
+}
+
+.two-squares .square-left,.two-squares .square-right{
+    position: relative;
+    display: inline-block;
+    width: 49%;
+    height: 580px;
+}
+
+.two-squares{
+    padding: 0px 0px 0px 0px;
+    background: white;
+}
+
+.third-row img,.second-row img,.first-row img{
+    padding: 5% 0% 0% 0%;
+}
+
+.first-row .cta,.second-row .cta{
+    color: white;
+}
+
+.first-row .cta:hover,.second-row .cta:hover{
+    text-decoration:underline;
+    color: white;
+}
+
+.first-row .material-icons,.second-row .material-icons{
+    color:white;
+    position: relative;
+    bottom: -5px;
+    right: 6px;
+} 
+
+.square-left,.square-right{
+    margin: 0px 2px 0px 5px;
+}
+
+.third-row{
+    margin: 0px 2px 12px 5px;
+}
+
+.two-squares h3{
+    color: white;
+}
+
+.third-row h3{
+    color: #111;
+}
+
 
    /* footer */
    .footer{
@@ -150,4 +280,79 @@ h3{
     font-size: 12px;
     line-height: 1.4;
     color:#888;
+}
+
+@media screen and (max-width:937px){
+    .two-squares .square-left,.two-squares .square-right{
+        display: block;
+        width: 100%;
+        margin-left:0px;
+    } 
+    .two-squares .square-right{
+        margin-top: 12px;
+    }
+    footer{
+        display:none;
+    }
+    .mobile-footer{
+        display:block;
+    }
+    .big-image{
+        display:none;
+    }
+    .medium-image{
+        display:inline;
+    }
+    .small-image{
+        display:none;
+    }
+    .footer-table-group, .footer-table{
+        padding: 0px 0px 0px 0px;
+    }
+    .third-row.square-right h2{
+        padding-top: 12px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .nav-bar .menu{
+        display:none;
+    }
+    .nav-bar .menu-mobile{
+        display:block;
+    }
+    .two-squares .square-left,.two-squares .square-right{
+        display: block;
+        width: 100%;
+        margin-left:0px;
+    } 
+    .two-squares .square-right{
+        margin-top: 12px;
+    }
+    footer{
+        display:none;
+    }
+    .mobile-footer{
+        display:block;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 19px;
+    }
+    .big-image{
+        display:none;
+    }
+    .medium-image{
+        display:none;
+    }
+    .small-image{
+        display:inline;
+    }
+    .third-row.square-right h2{
+        padding-top: 12px;
+        margin-top: 0px;
+    }
 }
