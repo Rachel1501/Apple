@@ -1,1 +1,49 @@
-f
+html{
+    margin: 0px;
+}
+
+body{
+    font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin: 0px;
+}
+.slice{
+    width: 20px;
+    height: 1px;
+    background-color: white;
+    margin: 5px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+h2{
+    font-size: 32px;
+    color: #111;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+h3{
+    position: inline-block;
+    font-size: 24px;
+    color: #111;
+    letter-spacing: .009em;
+    font-weight: 400;
+    margin: 6px 0px 1px 0px;
+}
+.stripe{
+    background: #FAFAFA;
+    text-align: center;
+    display: inline-block;
+    height: auto;
+    margin-top:12px;
+    padding: 50px 0px 0px 0px;
+    width: 100%;
+}   
+.cta a,.cta{
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: .011em;
+    color: #0070c9;
+    display:inline-block;
+    text-align: center;
+}
